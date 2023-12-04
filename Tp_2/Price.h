@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <string>
 
 class Price {
 private:
@@ -8,6 +9,8 @@ private:
     double productCost;
 
 public:
+    Price() : productName("-"), storeName("-"), productCost(0) {}
+
     Price(const std::string& name, const std::string& store, double cost)
         : productName(name), storeName(store), productCost(cost) {}
 

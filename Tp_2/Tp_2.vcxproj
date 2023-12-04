@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AdditionalFunc.cpp" />
+    <ClCompile Include="PriceList.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Price.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AdditionalFunc.h" />
+    <ClInclude Include="PriceList.h" />
     <ClInclude Include="Price.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

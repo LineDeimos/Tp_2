@@ -11,10 +11,13 @@ std::ostream& operator<<(std::ostream& os, const Price& price) {
 // Перегруженная операция извлечения для ввода информации о товаре
 std::istream& operator>>(std::istream& is, Price& price) {
     std::cout << "Enter product name: ";
-    is >> price.productName;
+    std::getline(is >> std::ws, price.productName);
+
     std::cout << "Enter store name: ";
-    is >> price.storeName;
+    std::getline(is >> std::ws, price.storeName);
+
     std::cout << "Enter product cost: ";
     is >> price.productCost;
+
     return is;
 }
