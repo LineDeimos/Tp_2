@@ -137,8 +137,7 @@ void processSentences(const std::string& filename)
 	std::ifstream inputFile(filename);
 
 	if (!inputFile.is_open()) {
-		std::cerr << "Error opening the file!" << std::endl;
-		return;
+		throw FileOpenException(filename);
 	}
 
 	std::vector<std::string> oneLetterSentence;

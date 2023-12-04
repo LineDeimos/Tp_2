@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AdditionalFunc.cpp" />
+    <ClCompile Include="FileExeption.cpp" />
     <ClCompile Include="PriceList.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Price.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AdditionalFunc.h" />
+    <ClInclude Include="FileExeption.h" />
     <ClInclude Include="PriceList.h" />
     <ClInclude Include="Price.h" />
   </ItemGroup>

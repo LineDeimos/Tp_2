@@ -1,5 +1,6 @@
 #pragma once
 #include "PriceList.h"
+#include "FileExeption.h"
 #include <fstream>
 #include <sstream>
 #include <vector>
